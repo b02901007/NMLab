@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD22FA791E63452E001E6FE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22FA781E63452E001E6FE7 /* AppDelegate.swift */; };
+		FD22FA7B1E63452E001E6FE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22FA7A1E63452E001E6FE7 /* ViewController.swift */; };
+		FD22FA7E1E63452E001E6FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22FA7C1E63452E001E6FE7 /* Main.storyboard */; };
+		FD22FA801E63452E001E6FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD22FA7F1E63452E001E6FE7 /* Assets.xcassets */; };
+		FD22FA831E63452E001E6FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD22FA811E63452E001E6FE7 /* LaunchScreen.storyboard */; };
+		FD22FA8B1E63456B001E6FE7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22FA8A1E63456B001E6FE7 /* TableViewController.swift */; };
+		FD22FA8E1E6345AB001E6FE7 /* MyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD22FA8C1E6345AB001E6FE7 /* MyCellTableViewCell.swift */; };
+		FD22FA8F1E6345AB001E6FE7 /* MyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD22FA8D1E6345AB001E6FE7 /* MyCellTableViewCell.xib */; };
+		FD4E75831E634F330039F1DE /* Enclosure icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD4E75821E634F330039F1DE /* Enclosure icon.png */; };
+		FD4E75851E634F520039F1DE /* 912181048321124.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4E75841E634F520039F1DE /* 912181048321124.jpg */; };
+		FD4E75871E634F7A0039F1DE /* y1w2e7f8j5j502d9p174.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4E75861E634F7A0039F1DE /* y1w2e7f8j5j502d9p174.jpg */; };
+		FD4E75891E634F8D0039F1DE /* DSC_0063.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD4E75881E634F8D0039F1DE /* DSC_0063.jpg */; };
+		FD54E6E71E63DB1600877480 /* home-ios-7-interface-symbol_318-38804.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD54E6E61E63DB1600877480 /* home-ios-7-interface-symbol_318-38804.jpg */; };
+		FD54E6E91E6401DA00877480 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = FD54E6E81E6401DA00877480 /* button.png */; };
+		FD54E6EB1E64023A00877480 /* house-icon-png-white-32.png in Resources */ = {isa = PBXBuildFile; fileRef = FD54E6EA1E64023A00877480 /* house-icon-png-white-32.png */; };
+		FD54E6ED1E6402C700877480 /* black-white-home-icon_338292.png in Resources */ = {isa = PBXBuildFile; fileRef = FD54E6EC1E6402C700877480 /* black-white-home-icon_338292.png */; };
+		FD54E6EF1E64068500877480 /* Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD54E6EE1E64068500877480 /* Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg */; };
+		FD54E6F11E6406CD00877480 /* hiking-guide-copy-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD54E6F01E6406CD00877480 /* hiking-guide-copy-2.jpg */; };
+		FD54E6F71E647B2700877480 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD54E6F61E647B2700877480 /* CustomSegue.swift */; };
+		FD54E6F91E647F8900877480 /* CustomSegue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD54E6F81E647F8900877480 /* CustomSegue2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD22FA751E63452E001E6FE7 /* test3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD22FA781E63452E001E6FE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD22FA7A1E63452E001E6FE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD22FA7D1E63452E001E6FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD22FA7F1E63452E001E6FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD22FA821E63452E001E6FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD22FA841E63452E001E6FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD22FA8A1E63456B001E6FE7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FD22FA8C1E6345AB001E6FE7 /* MyCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCellTableViewCell.swift; sourceTree = "<group>"; };
+		FD22FA8D1E6345AB001E6FE7 /* MyCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellTableViewCell.xib; sourceTree = "<group>"; };
+		FD4E75821E634F330039F1DE /* Enclosure icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Enclosure icon.png"; path = "../../../Downloads/Enclosure icon.png"; sourceTree = "<group>"; };
+		FD4E75841E634F520039F1DE /* 912181048321124.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 912181048321124.jpg; path = ../../../Downloads/912181048321124.jpg; sourceTree = "<group>"; };
+		FD4E75861E634F7A0039F1DE /* y1w2e7f8j5j502d9p174.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = y1w2e7f8j5j502d9p174.jpg; path = ../../../Downloads/y1w2e7f8j5j502d9p174.jpg; sourceTree = "<group>"; };
+		FD4E75881E634F8D0039F1DE /* DSC_0063.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DSC_0063.jpg; path = ../../../Downloads/DSC_0063.jpg; sourceTree = "<group>"; };
+		FD54E6E61E63DB1600877480 /* home-ios-7-interface-symbol_318-38804.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "home-ios-7-interface-symbol_318-38804.jpg"; path = "../../../Downloads/home-ios-7-interface-symbol_318-38804.jpg"; sourceTree = "<group>"; };
+		FD54E6E81E6401DA00877480 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../button.png; sourceTree = "<group>"; };
+		FD54E6EA1E64023A00877480 /* house-icon-png-white-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "house-icon-png-white-32.png"; path = "../../../Downloads/house-icon-png-white-32.png"; sourceTree = "<group>"; };
+		FD54E6EC1E6402C700877480 /* black-white-home-icon_338292.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "black-white-home-icon_338292.png"; path = "../../../Downloads/black-white-home-icon_338292.png"; sourceTree = "<group>"; };
+		FD54E6EE1E64068500877480 /* Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg"; path = "../../../Downloads/Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg"; sourceTree = "<group>"; };
+		FD54E6F01E6406CD00877480 /* hiking-guide-copy-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hiking-guide-copy-2.jpg"; path = "../../../Downloads/hiking-guide-copy-2.jpg"; sourceTree = "<group>"; };
+		FD54E6F61E647B2700877480 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		FD54E6F81E647F8900877480 /* CustomSegue2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD22FA721E63452E001E6FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD22FA6C1E63452E001E6FE7 = {
+			isa = PBXGroup;
+			children = (
+				FD22FA771E63452E001E6FE7 /* test3 */,
+				FD22FA761E63452E001E6FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD22FA761E63452E001E6FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD22FA751E63452E001E6FE7 /* test3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD22FA771E63452E001E6FE7 /* test3 */ = {
+			isa = PBXGroup;
+			children = (
+				FD22FA781E63452E001E6FE7 /* AppDelegate.swift */,
+				FD22FA7A1E63452E001E6FE7 /* ViewController.swift */,
+				FD54E6EC1E6402C700877480 /* black-white-home-icon_338292.png */,
+				FD54E6EA1E64023A00877480 /* house-icon-png-white-32.png */,
+				FD22FA7C1E63452E001E6FE7 /* Main.storyboard */,
+				FD54E6F81E647F8900877480 /* CustomSegue2.swift */,
+				FD54E6F61E647B2700877480 /* CustomSegue.swift */,
+				FD54E6F01E6406CD00877480 /* hiking-guide-copy-2.jpg */,
+				FD54E6EE1E64068500877480 /* Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg */,
+				FD54E6E61E63DB1600877480 /* home-ios-7-interface-symbol_318-38804.jpg */,
+				FD54E6E81E6401DA00877480 /* button.png */,
+				FD22FA8C1E6345AB001E6FE7 /* MyCellTableViewCell.swift */,
+				FD22FA8D1E6345AB001E6FE7 /* MyCellTableViewCell.xib */,
+				FD22FA8A1E63456B001E6FE7 /* TableViewController.swift */,
+				FD4E75821E634F330039F1DE /* Enclosure icon.png */,
+				FD4E75841E634F520039F1DE /* 912181048321124.jpg */,
+				FD4E75861E634F7A0039F1DE /* y1w2e7f8j5j502d9p174.jpg */,
+				FD4E75881E634F8D0039F1DE /* DSC_0063.jpg */,
+				FD22FA7F1E63452E001E6FE7 /* Assets.xcassets */,
+				FD22FA811E63452E001E6FE7 /* LaunchScreen.storyboard */,
+				FD22FA841E63452E001E6FE7 /* Info.plist */,
+			);
+			path = test3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD22FA741E63452E001E6FE7 /* test3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD22FA871E63452E001E6FE7 /* Build configuration list for PBXNativeTarget "test3" */;
+			buildPhases = (
+				FD22FA711E63452E001E6FE7 /* Sources */,
+				FD22FA721E63452E001E6FE7 /* Frameworks */,
+				FD22FA731E63452E001E6FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test3;
+			productName = test3;
+			productReference = FD22FA751E63452E001E6FE7 /* test3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD22FA6D1E63452E001E6FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "呂明峻";
+				TargetAttributes = {
+					FD22FA741E63452E001E6FE7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47663X44T4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD22FA701E63452E001E6FE7 /* Build configuration list for PBXProject "test3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD22FA6C1E63452E001E6FE7;
+			productRefGroup = FD22FA761E63452E001E6FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD22FA741E63452E001E6FE7 /* test3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD22FA731E63452E001E6FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4E75871E634F7A0039F1DE /* y1w2e7f8j5j502d9p174.jpg in Resources */,
+				FD54E6E91E6401DA00877480 /* button.png in Resources */,
+				FD22FA831E63452E001E6FE7 /* LaunchScreen.storyboard in Resources */,
+				FD54E6EF1E64068500877480 /* Surfer-Riding-A-Wave-ipad-wallpaper-ilikewallpaper_com.jpg in Resources */,
+				FD54E6F11E6406CD00877480 /* hiking-guide-copy-2.jpg in Resources */,
+				FD22FA8F1E6345AB001E6FE7 /* MyCellTableViewCell.xib in Resources */,
+				FD54E6ED1E6402C700877480 /* black-white-home-icon_338292.png in Resources */,
+				FD22FA801E63452E001E6FE7 /* Assets.xcassets in Resources */,
+				FD4E75851E634F520039F1DE /* 912181048321124.jpg in Resources */,
+				FD54E6EB1E64023A00877480 /* house-icon-png-white-32.png in Resources */,
+				FD54E6E71E63DB1600877480 /* home-ios-7-interface-symbol_318-38804.jpg in Resources */,
+				FD4E75891E634F8D0039F1DE /* DSC_0063.jpg in Resources */,
+				FD22FA7E1E63452E001E6FE7 /* Main.storyboard in Resources */,
+				FD4E75831E634F330039F1DE /* Enclosure icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD22FA711E63452E001E6FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD22FA7B1E63452E001E6FE7 /* ViewController.swift in Sources */,
+				FD22FA8E1E6345AB001E6FE7 /* MyCellTableViewCell.swift in Sources */,
+				FD22FA8B1E63456B001E6FE7 /* TableViewController.swift in Sources */,
+				FD54E6F71E647B2700877480 /* CustomSegue.swift in Sources */,
+				FD22FA791E63452E001E6FE7 /* AppDelegate.swift in Sources */,
+				FD54E6F91E647F8900877480 /* CustomSegue2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD22FA7C1E63452E001E6FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD22FA7D1E63452E001E6FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD22FA811E63452E001E6FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD22FA821E63452E001E6FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD22FA851E63452E001E6FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD22FA861E63452E001E6FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD22FA881E63452E001E6FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47663X44T4;
+				INFOPLIST_FILE = test3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jeff-Lu.test3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD22FA891E63452E001E6FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47663X44T4;
+				INFOPLIST_FILE = test3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jeff-Lu.test3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD22FA701E63452E001E6FE7 /* Build configuration list for PBXProject "test3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD22FA851E63452E001E6FE7 /* Debug */,
+				FD22FA861E63452E001E6FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD22FA871E63452E001E6FE7 /* Build configuration list for PBXNativeTarget "test3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD22FA881E63452E001E6FE7 /* Debug */,
+				FD22FA891E63452E001E6FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD22FA6D1E63452E001E6FE7 /* Project object */;
+}

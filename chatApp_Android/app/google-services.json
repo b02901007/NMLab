@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "266141397708",
+    "firebase_url": "https://friendlychat-9d3d9.firebaseio.com",
+    "project_id": "friendlychat-9d3d9",
+    "storage_bucket": "friendlychat-9d3d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266141397708:android:b5d75907de594a2d",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266141397708-enskbgiidpib89jl519kjktll4uikpqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.codelab.friendlychat",
+            "certificate_hash": "c3de7465abbc35e9b1ad0112a61a050a490f7f5f"
+          }
+        },
+        {
+          "client_id": "266141397708-geti7dtl91h74mg77hi43makpnl30hov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMEHXulohkOQCxcmevJNE87CDnEHw2Nxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266141397708-geti7dtl91h74mg77hi43makpnl30hov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266141397708:android:fad8f339297790c6",
+        "android_client_info": {
+          "package_name": "com.example.jeff_lu.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266141397708-vsggktft0qlj9fh6jij6orn0gi8in09q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeff_lu.chatapp",
+            "certificate_hash": "c3de7465abbc35e9b1ad0112a61a050a490f7f5f"
+          }
+        },
+        {
+          "client_id": "266141397708-geti7dtl91h74mg77hi43makpnl30hov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMEHXulohkOQCxcmevJNE87CDnEHw2Nxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266141397708-geti7dtl91h74mg77hi43makpnl30hov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
